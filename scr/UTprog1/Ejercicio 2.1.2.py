@@ -45,11 +45,10 @@ def verificar_contraseña(contraseña):
     
     else:
         return "Incorrecto"
+continuar = input("Desea intentarlo de nuevo??(SI/NO):")
+if continuar.lower() != "si":
 
-while True:
-    contraseña = input("Introduzca la contraseña: ")
-    verificar_contraseña(contraseña)
-
-    continuar = input("Desea intentarlo de nuevo??(SI/NO):")
-    if continuar.lower() != "si":
-        break
+        while True:
+            contraseña = input("Introduzca la contraseña: ")
+            verificar_contraseña(contraseña)
+            break
