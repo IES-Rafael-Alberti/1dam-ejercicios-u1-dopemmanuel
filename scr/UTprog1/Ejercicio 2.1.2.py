@@ -40,15 +40,17 @@ def verificar_contraseña(contraseña):
     }
 
     if contraseña in contraseñas:
-        return contraseñas[contraseña]
-
-    
+        print(contraseñas[contraseña])
+        return True
     else:
-        return "Incorrecto"
-continuar = input("Desea intentarlo de nuevo??(SI/NO):")
-if continuar.lower() != "si":
+        print("Incorrecto")
+        return False
 
-        while True:
-            contraseña = input("Introduzca la contraseña: ")
-            verificar_contraseña(contraseña)
+while True:
+    contraseña = input("Introduzca la contraseña: ")
+    if verificar_contraseña(contraseña):
+        break
+    else:
+        continuar = input("Desea intentarlo de nuevo? (SI/NO): ")
+        if continuar.lower() != "si":
             break

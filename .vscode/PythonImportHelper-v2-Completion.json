@@ -1,0 +1,893 @@
+[
+    {
+        "label": "saluda",
+        "kind": 2,
+        "importPath": "scr.Ejercicios U1.ej01",
+        "description": "scr.Ejercicios U1.ej01",
+        "peekOfCode": "def saludar (nombre):\n    return \"hola, \" + nombre\nnombre = input(\"Escribe tu nombre: \")\nmensaje = saludar (nombre)\nprint(nombre)",
+        "detail": "scr.Ejercicios U1.ej01",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej01",
+        "description": "scr.Ejercicios U1.ej01",
+        "peekOfCode": "nombre = input(\"Escribe tu nombre: \")\nmensaje = saludar (nombre)\nprint(nombre)",
+        "detail": "scr.Ejercicios U1.ej01",
+        "documentation": {}
+    },
+    {
+        "label": "mensaje",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej01",
+        "description": "scr.Ejercicios U1.ej01",
+        "peekOfCode": "mensaje = saludar (nombre)\nprint(nombre)",
+        "detail": "scr.Ejercicios U1.ej01",
+        "documentation": {}
+    },
+    {
+        "label": "calcular",
+        "kind": 2,
+        "importPath": "scr.Ejercicios U1.ej02",
+        "description": "scr.Ejercicios U1.ej02",
+        "peekOfCode": "def calcular(horas, coste_horas):\n    return horas * coste_horas\nhoras = int(input(\"Horas de trabajo: \"))\ncoste = int(input(\"Coste por Horas: \"))\ntotal = horas * coste\nprint(\"total:\",total)",
+        "detail": "scr.Ejercicios U1.ej02",
+        "documentation": {}
+    },
+    {
+        "label": "horas",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej02",
+        "description": "scr.Ejercicios U1.ej02",
+        "peekOfCode": "horas = int(input(\"Horas de trabajo: \"))\ncoste = int(input(\"Coste por Horas: \"))\ntotal = horas * coste\nprint(\"total:\",total)",
+        "detail": "scr.Ejercicios U1.ej02",
+        "documentation": {}
+    },
+    {
+        "label": "coste",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej02",
+        "description": "scr.Ejercicios U1.ej02",
+        "peekOfCode": "coste = int(input(\"Coste por Horas: \"))\ntotal = horas * coste\nprint(\"total:\",total)",
+        "detail": "scr.Ejercicios U1.ej02",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej02",
+        "description": "scr.Ejercicios U1.ej02",
+        "peekOfCode": "total = horas * coste\nprint(\"total:\",total)",
+        "detail": "scr.Ejercicios U1.ej02",
+        "documentation": {}
+    },
+    {
+        "label": "ancho",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej03",
+        "description": "scr.Ejercicios U1.ej03",
+        "peekOfCode": "ancho = 17\nalto = 12.0\narea = ancho * alto\nprint(\"area\", area)",
+        "detail": "scr.Ejercicios U1.ej03",
+        "documentation": {}
+    },
+    {
+        "label": "alto",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej03",
+        "description": "scr.Ejercicios U1.ej03",
+        "peekOfCode": "alto = 12.0\narea = ancho * alto\nprint(\"area\", area)",
+        "detail": "scr.Ejercicios U1.ej03",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej03",
+        "description": "scr.Ejercicios U1.ej03",
+        "peekOfCode": "area = ancho * alto\nprint(\"area\", area)",
+        "detail": "scr.Ejercicios U1.ej03",
+        "documentation": {}
+    },
+    {
+        "label": "grados_a_fahrenheit",
+        "kind": 2,
+        "importPath": "scr.Ejercicios U1.ej04",
+        "description": "scr.Ejercicios U1.ej04",
+        "peekOfCode": "def grados_a_fahrenheit(Celcius):\n    return (Celcius * 9/5) + 32\nCelsius = float(input(\"Ingrese los grados celcius: \"))\nfahrenheit =  Celsius * 9/5 + 32\nprint(\"La temperatura de celcius a fharenheit es:\", fahrenheit )",
+        "detail": "scr.Ejercicios U1.ej04",
+        "documentation": {}
+    },
+    {
+        "label": "Celsius",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej04",
+        "description": "scr.Ejercicios U1.ej04",
+        "peekOfCode": "Celsius = float(input(\"Ingrese los grados celcius: \"))\nfahrenheit =  Celsius * 9/5 + 32\nprint(\"La temperatura de celcius a fharenheit es:\", fahrenheit )",
+        "detail": "scr.Ejercicios U1.ej04",
+        "documentation": {}
+    },
+    {
+        "label": "fahrenheit",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej04",
+        "description": "scr.Ejercicios U1.ej04",
+        "peekOfCode": "fahrenheit =  Celsius * 9/5 + 32\nprint(\"La temperatura de celcius a fharenheit es:\", fahrenheit )",
+        "detail": "scr.Ejercicios U1.ej04",
+        "documentation": {}
+    },
+    {
+        "label": "precio_final",
+        "kind": 2,
+        "importPath": "scr.Ejercicios U1.ej05",
+        "description": "scr.Ejercicios U1.ej05",
+        "peekOfCode": "def precio_final(importe_sin_iva, tipo_de_iva):\n    return (importe_sin_iva + tipo_de_iva / 100)\nimporte_sin_iva = float(input(\"Ingrese el importe sin IVA del artículo: \"))\ntipo_de_iva = float(input(\"Ingrese el tipo de IVA aplicado (porcentaje): \"))\nprecio_final = importe_sin_iva * 1 + tipo_de_iva / 100\nprint(\"El precio final del artículo con IVA es:\", precio_final)",
+        "detail": "scr.Ejercicios U1.ej05",
+        "documentation": {}
+    },
+    {
+        "label": "importe_sin_iva",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej05",
+        "description": "scr.Ejercicios U1.ej05",
+        "peekOfCode": "importe_sin_iva = float(input(\"Ingrese el importe sin IVA del artículo: \"))\ntipo_de_iva = float(input(\"Ingrese el tipo de IVA aplicado (porcentaje): \"))\nprecio_final = importe_sin_iva * 1 + tipo_de_iva / 100\nprint(\"El precio final del artículo con IVA es:\", precio_final)",
+        "detail": "scr.Ejercicios U1.ej05",
+        "documentation": {}
+    },
+    {
+        "label": "tipo_de_iva",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej05",
+        "description": "scr.Ejercicios U1.ej05",
+        "peekOfCode": "tipo_de_iva = float(input(\"Ingrese el tipo de IVA aplicado (porcentaje): \"))\nprecio_final = importe_sin_iva * 1 + tipo_de_iva / 100\nprint(\"El precio final del artículo con IVA es:\", precio_final)",
+        "detail": "scr.Ejercicios U1.ej05",
+        "documentation": {}
+    },
+    {
+        "label": "precio_final",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej05",
+        "description": "scr.Ejercicios U1.ej05",
+        "peekOfCode": "precio_final = importe_sin_iva * 1 + tipo_de_iva / 100\nprint(\"El precio final del artículo con IVA es:\", precio_final)",
+        "detail": "scr.Ejercicios U1.ej05",
+        "documentation": {}
+    },
+    {
+        "label": "importe_final",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej06",
+        "description": "scr.Ejercicios U1.ej06",
+        "peekOfCode": "importe_final = float(input(\"Ingrese el importe final del artículo: \"))\niva_pagado = importe_final * 0.10\nimporte_sin_iva = importe_final - iva_pagado\nprint(\"IVA Pagado: \", iva_pagado)\nprint(\"Importe sin IVA:\", importe_sin_iva)",
+        "detail": "scr.Ejercicios U1.ej06",
+        "documentation": {}
+    },
+    {
+        "label": "iva_pagado",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej06",
+        "description": "scr.Ejercicios U1.ej06",
+        "peekOfCode": "iva_pagado = importe_final * 0.10\nimporte_sin_iva = importe_final - iva_pagado\nprint(\"IVA Pagado: \", iva_pagado)\nprint(\"Importe sin IVA:\", importe_sin_iva)",
+        "detail": "scr.Ejercicios U1.ej06",
+        "documentation": {}
+    },
+    {
+        "label": "importe_sin_iva",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej06",
+        "description": "scr.Ejercicios U1.ej06",
+        "peekOfCode": "importe_sin_iva = importe_final - iva_pagado\nprint(\"IVA Pagado: \", iva_pagado)\nprint(\"Importe sin IVA:\", importe_sin_iva)",
+        "detail": "scr.Ejercicios U1.ej06",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej07",
+        "description": "scr.Ejercicios U1.ej07",
+        "peekOfCode": "num1 = float(input(\"Ingrese el primer número: \"))\nnum2 = float(input(\"Ingrese el segundo número: \"))\nnum3 = float(input(\"Ingrese el tercer número: \"))\nsuma = num1 + num2 + num3\nprint(\"La suma de los tres números es:\", suma)",
+        "detail": "scr.Ejercicios U1.ej07",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej07",
+        "description": "scr.Ejercicios U1.ej07",
+        "peekOfCode": "num2 = float(input(\"Ingrese el segundo número: \"))\nnum3 = float(input(\"Ingrese el tercer número: \"))\nsuma = num1 + num2 + num3\nprint(\"La suma de los tres números es:\", suma)",
+        "detail": "scr.Ejercicios U1.ej07",
+        "documentation": {}
+    },
+    {
+        "label": "num3",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej07",
+        "description": "scr.Ejercicios U1.ej07",
+        "peekOfCode": "num3 = float(input(\"Ingrese el tercer número: \"))\nsuma = num1 + num2 + num3\nprint(\"La suma de los tres números es:\", suma)",
+        "detail": "scr.Ejercicios U1.ej07",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej07",
+        "description": "scr.Ejercicios U1.ej07",
+        "peekOfCode": "suma = num1 + num2 + num3\nprint(\"La suma de los tres números es:\", suma)",
+        "detail": "scr.Ejercicios U1.ej07",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej08",
+        "description": "scr.Ejercicios U1.ej08",
+        "peekOfCode": "num1 = float(input(\"Ingrese el primer número: \"))\nnum2 = float(input(\"Ingrese el segundo número: \"))\nnum2 += float(input(\"Ingrese el tercer número y se sumará al segundo número: \"))\nprint(\"La suma de los tres números es:\", num1 + num2)",
+        "detail": "scr.Ejercicios U1.ej08",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej08",
+        "description": "scr.Ejercicios U1.ej08",
+        "peekOfCode": "num2 = float(input(\"Ingrese el segundo número: \"))\nnum2 += float(input(\"Ingrese el tercer número y se sumará al segundo número: \"))\nprint(\"La suma de los tres números es:\", num1 + num2)",
+        "detail": "scr.Ejercicios U1.ej08",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej09",
+        "description": "scr.Ejercicios U1.ej09",
+        "peekOfCode": "suma = float(input(\"Ingrese el primer número: \")) + float(input(\"Ingrese el segundo número: \")) + float(input(\"Ingrese el tercer número: \"))\nprint(\"La suma de los tres números es:\", suma)",
+        "detail": "scr.Ejercicios U1.ej09",
+        "documentation": {}
+    },
+    {
+        "label": "peso",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej12",
+        "description": "scr.Ejercicios U1.ej12",
+        "peekOfCode": "peso = float(input(\"Ingrese su peso en kilogramos: \"))\nestatura = float(input(\"Ingrese su estatura en metros: \"))\nimc = peso / estatura * 2\nimc_redondeado = round(imc, 2)\nprint(\"Tu índice de masa corporal es:\", imc_redondeado )",
+        "detail": "scr.Ejercicios U1.ej12",
+        "documentation": {}
+    },
+    {
+        "label": "estatura",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej12",
+        "description": "scr.Ejercicios U1.ej12",
+        "peekOfCode": "estatura = float(input(\"Ingrese su estatura en metros: \"))\nimc = peso / estatura * 2\nimc_redondeado = round(imc, 2)\nprint(\"Tu índice de masa corporal es:\", imc_redondeado )",
+        "detail": "scr.Ejercicios U1.ej12",
+        "documentation": {}
+    },
+    {
+        "label": "imc",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej12",
+        "description": "scr.Ejercicios U1.ej12",
+        "peekOfCode": "imc = peso / estatura * 2\nimc_redondeado = round(imc, 2)\nprint(\"Tu índice de masa corporal es:\", imc_redondeado )",
+        "detail": "scr.Ejercicios U1.ej12",
+        "documentation": {}
+    },
+    {
+        "label": "imc_redondeado",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej12",
+        "description": "scr.Ejercicios U1.ej12",
+        "peekOfCode": "imc_redondeado = round(imc, 2)\nprint(\"Tu índice de masa corporal es:\", imc_redondeado )",
+        "detail": "scr.Ejercicios U1.ej12",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej13",
+        "description": "scr.Ejercicios U1.ej13",
+        "peekOfCode": "n = int(input(\"Ingrese el primer número entero (n): \"))\nm = int(input(\"Ingrese el segundo número entero (m): \"))\nc = n // m\nr = n % m\nprint(\"La división de\", n, \"entre\", m, \"da un cociente\", c, \"y un resto\", r)",
+        "detail": "scr.Ejercicios U1.ej13",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej13",
+        "description": "scr.Ejercicios U1.ej13",
+        "peekOfCode": "m = int(input(\"Ingrese el segundo número entero (m): \"))\nc = n // m\nr = n % m\nprint(\"La división de\", n, \"entre\", m, \"da un cociente\", c, \"y un resto\", r)",
+        "detail": "scr.Ejercicios U1.ej13",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej13",
+        "description": "scr.Ejercicios U1.ej13",
+        "peekOfCode": "c = n // m\nr = n % m\nprint(\"La división de\", n, \"entre\", m, \"da un cociente\", c, \"y un resto\", r)",
+        "detail": "scr.Ejercicios U1.ej13",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej13",
+        "description": "scr.Ejercicios U1.ej13",
+        "peekOfCode": "r = n % m\nprint(\"La división de\", n, \"entre\", m, \"da un cociente\", c, \"y un resto\", r)",
+        "detail": "scr.Ejercicios U1.ej13",
+        "documentation": {}
+    },
+    {
+        "label": "payasos",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej14",
+        "description": "scr.Ejercicios U1.ej14",
+        "peekOfCode": "payasos = int(input(\"Ingrese el número de payasos vendidos: \"))\nmunecas = int(input(\"Ingrese el número de muñecas vendidas: \"))\npeso_payasos = payasos * 112\npeso_munecas = munecas * 75\npeso_total = peso_payasos + peso_munecas\nprint(\"El peso total del paquete que será enviado es de\", peso_total, \"gramos.\")",
+        "detail": "scr.Ejercicios U1.ej14",
+        "documentation": {}
+    },
+    {
+        "label": "munecas",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej14",
+        "description": "scr.Ejercicios U1.ej14",
+        "peekOfCode": "munecas = int(input(\"Ingrese el número de muñecas vendidas: \"))\npeso_payasos = payasos * 112\npeso_munecas = munecas * 75\npeso_total = peso_payasos + peso_munecas\nprint(\"El peso total del paquete que será enviado es de\", peso_total, \"gramos.\")",
+        "detail": "scr.Ejercicios U1.ej14",
+        "documentation": {}
+    },
+    {
+        "label": "peso_payasos",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej14",
+        "description": "scr.Ejercicios U1.ej14",
+        "peekOfCode": "peso_payasos = payasos * 112\npeso_munecas = munecas * 75\npeso_total = peso_payasos + peso_munecas\nprint(\"El peso total del paquete que será enviado es de\", peso_total, \"gramos.\")",
+        "detail": "scr.Ejercicios U1.ej14",
+        "documentation": {}
+    },
+    {
+        "label": "peso_munecas",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej14",
+        "description": "scr.Ejercicios U1.ej14",
+        "peekOfCode": "peso_munecas = munecas * 75\npeso_total = peso_payasos + peso_munecas\nprint(\"El peso total del paquete que será enviado es de\", peso_total, \"gramos.\")",
+        "detail": "scr.Ejercicios U1.ej14",
+        "documentation": {}
+    },
+    {
+        "label": "peso_total",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej14",
+        "description": "scr.Ejercicios U1.ej14",
+        "peekOfCode": "peso_total = peso_payasos + peso_munecas\nprint(\"El peso total del paquete que será enviado es de\", peso_total, \"gramos.\")",
+        "detail": "scr.Ejercicios U1.ej14",
+        "documentation": {}
+    },
+    {
+        "label": "capital",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej15",
+        "description": "scr.Ejercicios U1.ej15",
+        "peekOfCode": "capital = float(input(\"Ingrese la cantidad de dinero depositada: \"))\ntasa_interes = 0.04\nsaldo_1_anio = capital * 1 + tasa_interes\nsaldo_2_anios = saldo_1_anio * 1 + tasa_interes\nsaldo_3_anios = saldo_2_anios * 1 + tasa_interes\nprint(\"Saldo después de 1 año: \", saldo_1_anio)\nprint(\"Saldo después de 2 años: \", saldo_2_anios)\nprint(\"Saldo después de 3 años: \", saldo_3_anios)",
+        "detail": "scr.Ejercicios U1.ej15",
+        "documentation": {}
+    },
+    {
+        "label": "tasa_interes",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej15",
+        "description": "scr.Ejercicios U1.ej15",
+        "peekOfCode": "tasa_interes = 0.04\nsaldo_1_anio = capital * 1 + tasa_interes\nsaldo_2_anios = saldo_1_anio * 1 + tasa_interes\nsaldo_3_anios = saldo_2_anios * 1 + tasa_interes\nprint(\"Saldo después de 1 año: \", saldo_1_anio)\nprint(\"Saldo después de 2 años: \", saldo_2_anios)\nprint(\"Saldo después de 3 años: \", saldo_3_anios)",
+        "detail": "scr.Ejercicios U1.ej15",
+        "documentation": {}
+    },
+    {
+        "label": "saldo_1_anio",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej15",
+        "description": "scr.Ejercicios U1.ej15",
+        "peekOfCode": "saldo_1_anio = capital * 1 + tasa_interes\nsaldo_2_anios = saldo_1_anio * 1 + tasa_interes\nsaldo_3_anios = saldo_2_anios * 1 + tasa_interes\nprint(\"Saldo después de 1 año: \", saldo_1_anio)\nprint(\"Saldo después de 2 años: \", saldo_2_anios)\nprint(\"Saldo después de 3 años: \", saldo_3_anios)",
+        "detail": "scr.Ejercicios U1.ej15",
+        "documentation": {}
+    },
+    {
+        "label": "saldo_2_anios",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej15",
+        "description": "scr.Ejercicios U1.ej15",
+        "peekOfCode": "saldo_2_anios = saldo_1_anio * 1 + tasa_interes\nsaldo_3_anios = saldo_2_anios * 1 + tasa_interes\nprint(\"Saldo después de 1 año: \", saldo_1_anio)\nprint(\"Saldo después de 2 años: \", saldo_2_anios)\nprint(\"Saldo después de 3 años: \", saldo_3_anios)",
+        "detail": "scr.Ejercicios U1.ej15",
+        "documentation": {}
+    },
+    {
+        "label": "saldo_3_anios",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej15",
+        "description": "scr.Ejercicios U1.ej15",
+        "peekOfCode": "saldo_3_anios = saldo_2_anios * 1 + tasa_interes\nprint(\"Saldo después de 1 año: \", saldo_1_anio)\nprint(\"Saldo después de 2 años: \", saldo_2_anios)\nprint(\"Saldo después de 3 años: \", saldo_3_anios)",
+        "detail": "scr.Ejercicios U1.ej15",
+        "documentation": {}
+    },
+    {
+        "label": "precio_por_barra",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej16",
+        "description": "scr.Ejercicios U1.ej16",
+        "peekOfCode": "precio_por_barra = 3.49\nbarras_no_frescas = int(input(\"Ingrese el número de barras no frescas vendidas: \"))\ncosto_total = barras_no_frescas * precio_por_barra * 0.4\nprint(\"Precio habitual por barra: \", precio_por_barra)\nprint(\"Descuento por no ser frescas: \", precio_por_barra * 0.6)\nprint(\"Costo total de las barras no frescas: \", costo_total)",
+        "detail": "scr.Ejercicios U1.ej16",
+        "documentation": {}
+    },
+    {
+        "label": "barras_no_frescas",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej16",
+        "description": "scr.Ejercicios U1.ej16",
+        "peekOfCode": "barras_no_frescas = int(input(\"Ingrese el número de barras no frescas vendidas: \"))\ncosto_total = barras_no_frescas * precio_por_barra * 0.4\nprint(\"Precio habitual por barra: \", precio_por_barra)\nprint(\"Descuento por no ser frescas: \", precio_por_barra * 0.6)\nprint(\"Costo total de las barras no frescas: \", costo_total)",
+        "detail": "scr.Ejercicios U1.ej16",
+        "documentation": {}
+    },
+    {
+        "label": "costo_total",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej16",
+        "description": "scr.Ejercicios U1.ej16",
+        "peekOfCode": "costo_total = barras_no_frescas * precio_por_barra * 0.4\nprint(\"Precio habitual por barra: \", precio_por_barra)\nprint(\"Descuento por no ser frescas: \", precio_por_barra * 0.6)\nprint(\"Costo total de las barras no frescas: \", costo_total)",
+        "detail": "scr.Ejercicios U1.ej16",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej17",
+        "description": "scr.Ejercicios U1.ej17",
+        "peekOfCode": "nombre = input(\"Ingrese su nombre: \")\nnum = int(input(\"Ingrese un número entero: \"))\nfor i in range(0,10,num):\n    print(i,nombre)",
+        "detail": "scr.Ejercicios U1.ej17",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej17",
+        "description": "scr.Ejercicios U1.ej17",
+        "peekOfCode": "num = int(input(\"Ingrese un número entero: \"))\nfor i in range(0,10,num):\n    print(i,nombre)",
+        "detail": "scr.Ejercicios U1.ej17",
+        "documentation": {}
+    },
+    {
+        "label": "nombre_completo",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej18",
+        "description": "scr.Ejercicios U1.ej18",
+        "peekOfCode": "nombre_completo = input(\"Ingrese su nombre completo: \")\nprint(\"Nombre completo en minúsculas:\", nombre_completo.lower())\nprint(\"Nombre completo en mayúsculas:\", nombre_completo.upper())\npalabras = nombre_completo.split()\nnombre_formateado = \" \".join([palabra.capitalize() for palabra in palabras])\nprint(\"Nombre formateado: \", nombre_formateado)",
+        "detail": "scr.Ejercicios U1.ej18",
+        "documentation": {}
+    },
+    {
+        "label": "palabras",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej18",
+        "description": "scr.Ejercicios U1.ej18",
+        "peekOfCode": "palabras = nombre_completo.split()\nnombre_formateado = \" \".join([palabra.capitalize() for palabra in palabras])\nprint(\"Nombre formateado: \", nombre_formateado)",
+        "detail": "scr.Ejercicios U1.ej18",
+        "documentation": {}
+    },
+    {
+        "label": "nombre_formateado",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej18",
+        "description": "scr.Ejercicios U1.ej18",
+        "peekOfCode": "nombre_formateado = \" \".join([palabra.capitalize() for palabra in palabras])\nprint(\"Nombre formateado: \", nombre_formateado)",
+        "detail": "scr.Ejercicios U1.ej18",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej19",
+        "description": "scr.Ejercicios U1.ej19",
+        "peekOfCode": "nombre = input(\"Ingrese su nombre: \")\nnumero_de_letras = len(nombre)\nprint(f\"\", nombre.upper() ,\"tiene\" ,numero_de_letras, \"letras.\")",
+        "detail": "scr.Ejercicios U1.ej19",
+        "documentation": {}
+    },
+    {
+        "label": "numero_de_letras",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej19",
+        "description": "scr.Ejercicios U1.ej19",
+        "peekOfCode": "numero_de_letras = len(nombre)\nprint(f\"\", nombre.upper() ,\"tiene\" ,numero_de_letras, \"letras.\")",
+        "detail": "scr.Ejercicios U1.ej19",
+        "documentation": {}
+    },
+    {
+        "label": "telefono",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej20",
+        "description": "scr.Ejercicios U1.ej20",
+        "peekOfCode": "telefono = input(\"Ingrese un número de teléfono con formato +34-XXXXXXXXX-XX: \")\nnumero_sin_prefijo_ext = telefono [4:-3]\nprint(\"Número de teléfono sin prefijo ni extensión: \", numero_sin_prefijo_ext)",
+        "detail": "scr.Ejercicios U1.ej20",
+        "documentation": {}
+    },
+    {
+        "label": "numero_sin_prefijo_ext",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej20",
+        "description": "scr.Ejercicios U1.ej20",
+        "peekOfCode": "numero_sin_prefijo_ext = telefono [4:-3]\nprint(\"Número de teléfono sin prefijo ni extensión: \", numero_sin_prefijo_ext)",
+        "detail": "scr.Ejercicios U1.ej20",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej21",
+        "description": "scr.Ejercicios U1.ej21",
+        "peekOfCode": "frase = input(\"Ingrese una frase: \")\nfrase_invertida = frase[::-1]\nprint(\"Frase invertida:\", frase_invertida)",
+        "detail": "scr.Ejercicios U1.ej21",
+        "documentation": {}
+    },
+    {
+        "label": "frase_invertida",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej21",
+        "description": "scr.Ejercicios U1.ej21",
+        "peekOfCode": "frase_invertida = frase[::-1]\nprint(\"Frase invertida:\", frase_invertida)",
+        "detail": "scr.Ejercicios U1.ej21",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej22",
+        "description": "scr.Ejercicios U1.ej22",
+        "peekOfCode": "frase = input(\"Ingrese una frase: \")\nvocal = input(\"Ingrese una vocal: \")\nfrase_modificada = frase.replace (vocal.lower(), vocal.upper())\nprint(\"Frase con la vocal en mayúscula: \", frase_modificada)",
+        "detail": "scr.Ejercicios U1.ej22",
+        "documentation": {}
+    },
+    {
+        "label": "vocal",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej22",
+        "description": "scr.Ejercicios U1.ej22",
+        "peekOfCode": "vocal = input(\"Ingrese una vocal: \")\nfrase_modificada = frase.replace (vocal.lower(), vocal.upper())\nprint(\"Frase con la vocal en mayúscula: \", frase_modificada)",
+        "detail": "scr.Ejercicios U1.ej22",
+        "documentation": {}
+    },
+    {
+        "label": "frase_modificada",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej22",
+        "description": "scr.Ejercicios U1.ej22",
+        "peekOfCode": "frase_modificada = frase.replace (vocal.lower(), vocal.upper())\nprint(\"Frase con la vocal en mayúscula: \", frase_modificada)",
+        "detail": "scr.Ejercicios U1.ej22",
+        "documentation": {}
+    },
+    {
+        "label": "correo",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej23",
+        "description": "scr.Ejercicios U1.ej23",
+        "peekOfCode": "correo = input(\"Ingrese su correo electrónico: \")\nnombre_usuario = correo.split('@')[0]\nnuevo_correo = nombre_usuario + '@g.educaand.es'\nprint(\"Nuevo correo con dominio educaand.es:\", nuevo_correo)",
+        "detail": "scr.Ejercicios U1.ej23",
+        "documentation": {}
+    },
+    {
+        "label": "nombre_usuario",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej23",
+        "description": "scr.Ejercicios U1.ej23",
+        "peekOfCode": "nombre_usuario = correo.split('@')[0]\nnuevo_correo = nombre_usuario + '@g.educaand.es'\nprint(\"Nuevo correo con dominio educaand.es:\", nuevo_correo)",
+        "detail": "scr.Ejercicios U1.ej23",
+        "documentation": {}
+    },
+    {
+        "label": "nuevo_correo",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej23",
+        "description": "scr.Ejercicios U1.ej23",
+        "peekOfCode": "nuevo_correo = nombre_usuario + '@g.educaand.es'\nprint(\"Nuevo correo con dominio educaand.es:\", nuevo_correo)",
+        "detail": "scr.Ejercicios U1.ej23",
+        "documentation": {}
+    },
+    {
+        "label": "precio",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej24",
+        "description": "scr.Ejercicios U1.ej24",
+        "peekOfCode": "precio = float(input(\"Ingrese el precio del producto en euros (con dos decimales): \"))\neuros = int(precio)\ncentimos = int((precio - euros) * 100)\nprint(\"Número de euros: \", euros)\nprint(\"Número de céntimos: \", centimos)",
+        "detail": "scr.Ejercicios U1.ej24",
+        "documentation": {}
+    },
+    {
+        "label": "euros",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej24",
+        "description": "scr.Ejercicios U1.ej24",
+        "peekOfCode": "euros = int(precio)\ncentimos = int((precio - euros) * 100)\nprint(\"Número de euros: \", euros)\nprint(\"Número de céntimos: \", centimos)",
+        "detail": "scr.Ejercicios U1.ej24",
+        "documentation": {}
+    },
+    {
+        "label": "centimos",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej24",
+        "description": "scr.Ejercicios U1.ej24",
+        "peekOfCode": "centimos = int((precio - euros) * 100)\nprint(\"Número de euros: \", euros)\nprint(\"Número de céntimos: \", centimos)",
+        "detail": "scr.Ejercicios U1.ej24",
+        "documentation": {}
+    },
+    {
+        "label": "fecha_nacimiento",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej25",
+        "description": "scr.Ejercicios U1.ej25",
+        "peekOfCode": "fecha_nacimiento = input(\"Ingrese su fecha de nacimiento en formato dd/mm/aaaa: \")\ndia, mes, año = fecha_nacimiento.split('/')\nprint(\"Día: \", dia)\nprint(\"Mes: \", mes)\nprint(\"Año: \", año)",
+        "detail": "scr.Ejercicios U1.ej25",
+        "documentation": {}
+    },
+    {
+        "label": "compras",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej26",
+        "description": "scr.Ejercicios U1.ej26",
+        "peekOfCode": "compras = input(\"Ingrese los productos de la cesta de compra separados por comas: \")\nproductos = compras.split(\",\")\nfor producto in productos:\n    print(producto.strip())",
+        "detail": "scr.Ejercicios U1.ej26",
+        "documentation": {}
+    },
+    {
+        "label": "productos",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej26",
+        "description": "scr.Ejercicios U1.ej26",
+        "peekOfCode": "productos = compras.split(\",\")\nfor producto in productos:\n    print(producto.strip())",
+        "detail": "scr.Ejercicios U1.ej26",
+        "documentation": {}
+    },
+    {
+        "label": "nombre_producto",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej27",
+        "description": "scr.Ejercicios U1.ej27",
+        "peekOfCode": "nombre_producto = input(\"Ingrese el nombre del producto: \")\nprecio_unitario = float(input(\"Ingrese el precio unitario del producto: \"))\nunidades = int(input(\"Ingrese el número de unidades: \"))\ncoste_total = precio_unitario * unidades\nprint(\"Nombre del producto: \", nombre_producto)\nprint(\"Precio unitario: \", precio_unitario)\nprint(\"Número de unidades:\", unidades)\nprint(\"Coste total:\",coste_total)",
+        "detail": "scr.Ejercicios U1.ej27",
+        "documentation": {}
+    },
+    {
+        "label": "precio_unitario",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej27",
+        "description": "scr.Ejercicios U1.ej27",
+        "peekOfCode": "precio_unitario = float(input(\"Ingrese el precio unitario del producto: \"))\nunidades = int(input(\"Ingrese el número de unidades: \"))\ncoste_total = precio_unitario * unidades\nprint(\"Nombre del producto: \", nombre_producto)\nprint(\"Precio unitario: \", precio_unitario)\nprint(\"Número de unidades:\", unidades)\nprint(\"Coste total:\",coste_total)",
+        "detail": "scr.Ejercicios U1.ej27",
+        "documentation": {}
+    },
+    {
+        "label": "unidades",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej27",
+        "description": "scr.Ejercicios U1.ej27",
+        "peekOfCode": "unidades = int(input(\"Ingrese el número de unidades: \"))\ncoste_total = precio_unitario * unidades\nprint(\"Nombre del producto: \", nombre_producto)\nprint(\"Precio unitario: \", precio_unitario)\nprint(\"Número de unidades:\", unidades)\nprint(\"Coste total:\",coste_total)",
+        "detail": "scr.Ejercicios U1.ej27",
+        "documentation": {}
+    },
+    {
+        "label": "coste_total",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej27",
+        "description": "scr.Ejercicios U1.ej27",
+        "peekOfCode": "coste_total = precio_unitario * unidades\nprint(\"Nombre del producto: \", nombre_producto)\nprint(\"Precio unitario: \", precio_unitario)\nprint(\"Número de unidades:\", unidades)\nprint(\"Coste total:\",coste_total)",
+        "detail": "scr.Ejercicios U1.ej27",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej28",
+        "description": "scr.Ejercicios U1.ej28",
+        "peekOfCode": "num1 = int(input(\"Introduce el primer número entero: \"))\nnum2 = int(input(\"Introduce el segundo número entero: \"))\nif num1 == num2:\n    print(\"Los números no pueden ser iguales\")\nelse:\n    if num1 > num2:\n        num1, num2 = num2, num1\n    count = num2 - num1 - 1\n    print(f\"El número menor es el {num1} y entre ellos existen {count} números enteros\")",
+        "detail": "scr.Ejercicios U1.ej28",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej28",
+        "description": "scr.Ejercicios U1.ej28",
+        "peekOfCode": "num2 = int(input(\"Introduce el segundo número entero: \"))\nif num1 == num2:\n    print(\"Los números no pueden ser iguales\")\nelse:\n    if num1 > num2:\n        num1, num2 = num2, num1\n    count = num2 - num1 - 1\n    print(f\"El número menor es el {num1} y entre ellos existen {count} números enteros\")",
+        "detail": "scr.Ejercicios U1.ej28",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej29",
+        "description": "scr.Ejercicios U1.ej29",
+        "peekOfCode": "nombre = input(\"Introduce tu nombre: \")\nif nombre == \"\":\n    nombre = \"Desconocido\"\nwhile True:\n    try:\n        edad = int(input(\"Introduce tu edad: \"))\n        if 0 <= edad <= 125:\n            break\n        else:\n            print(\"La edad debe estar entre 0 y 125 años.\")",
+        "detail": "scr.Ejercicios U1.ej29",
+        "documentation": {}
+    },
+    {
+        "label": "años_por_cumplir",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej29",
+        "description": "scr.Ejercicios U1.ej29",
+        "peekOfCode": "años_por_cumplir = 125 - edad\nprint(\"Te llamas\", nombre, \"y tienes\", edad, \"años, te quedan aún\", años_por_cumplir, \"años por cumplir\")",
+        "detail": "scr.Ejercicios U1.ej29",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej30",
+        "description": "scr.Ejercicios U1.ej30",
+        "peekOfCode": "start = int(input(\"Introduce el número de inicio: \"))\nincrement = int(input(\"Introduce el incremento: \"))\ntotal = int(input(\"Introduce el total de la serie: \"))\nif increment <= 0 or total <= 0:\n    print(\"El incremento y el total deben ser mayores que cero.\")\nelse:\n    serie = str(start)\n    for i in range(1, total):\n        start += increment\n        serie += str(-start)",
+        "detail": "scr.Ejercicios U1.ej30",
+        "documentation": {}
+    },
+    {
+        "label": "increment",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej30",
+        "description": "scr.Ejercicios U1.ej30",
+        "peekOfCode": "increment = int(input(\"Introduce el incremento: \"))\ntotal = int(input(\"Introduce el total de la serie: \"))\nif increment <= 0 or total <= 0:\n    print(\"El incremento y el total deben ser mayores que cero.\")\nelse:\n    serie = str(start)\n    for i in range(1, total):\n        start += increment\n        serie += str(-start)\n    print(\"SERIE =>\", serie,)",
+        "detail": "scr.Ejercicios U1.ej30",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "scr.Ejercicios U1.ej30",
+        "description": "scr.Ejercicios U1.ej30",
+        "peekOfCode": "total = int(input(\"Introduce el total de la serie: \"))\nif increment <= 0 or total <= 0:\n    print(\"El incremento y el total deben ser mayores que cero.\")\nelse:\n    serie = str(start)\n    for i in range(1, total):\n        start += increment\n        serie += str(-start)\n    print(\"SERIE =>\", serie,)",
+        "detail": "scr.Ejercicios U1.ej30",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_edad",
+        "kind": 2,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.1",
+        "description": "scr.UTprog1.Ejercicio 2.1.1",
+        "peekOfCode": "def verificar_edad():\n    while True:\n        try:\n            edad = int(input(\"Ingrese su edad: \"))\n                    #Esta es opcional XD\n            if edad > 100:\n                    print(\"En serio??!!\", edad, \"años??, tu deverias de estar muerto eso es imposible...\")\n            elif  edad < 18:\n                    print(\"Eres menor de edad\")\n            elif edad > 18:",
+        "detail": "scr.UTprog1.Ejercicio 2.1.1",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.1",
+        "description": "scr.UTprog1.Ejercicio 2.1.1",
+        "peekOfCode": "edad = int(input(\"Ingrese su edad: \"))\n#Esta es opcional XD\nif edad > 100:\n        print(\"En serio??!!\", edad, \"años??, tu deverias de estar muerto eso es imposible...\")\nelif  edad < 18:\n    print(\"Eres menor de edad\")\nelif edad > 18:\n    print(\"Eres mayor de edad\")\n\"\"\"\ndef verificar_edad():",
+        "detail": "scr.UTprog1.Ejercicio 2.1.1",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_contraseña",
+        "kind": 2,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.2",
+        "description": "scr.UTprog1.Ejercicio 2.1.2",
+        "peekOfCode": "def verificar_contraseña(contraseña):\n    contraseñas = {\n        \"Usuario_Tarde\": \"CORRECTO!!\",\n        \"4358\": \"Correcto papu!!\",\n        \"Password\" : \"Correct yoo got an ice cream\",\n        \"Prog_DAM\" : \"Incorret- naaaa mentiras, Es CORRECTO\",\n        \"GITHUB\" : \"cOrEcToOoOoOoOoOoO!!\",\n        \"Porfin emma se aprendio el Pseudocodigo con Python\" : \"Sii aprendio(le falta aprender), y si acabas de introducir la contraseña correcta\",\n    }\n    if contraseña in contraseñas:",
+        "detail": "scr.UTprog1.Ejercicio 2.1.2",
+        "documentation": {}
+    },
+    {
+        "label": "Pass1",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.2",
+        "description": "scr.UTprog1.Ejercicio 2.1.2",
+        "peekOfCode": "Pass1 = \"Usuario_Tarde\"\nPass2 = \"4358\"\nPass3 = \"Password\"\nPass4 = \"Prog_DAM\"\nPass5 = \"GITHUB\"\nPass6 = \"Porfin emma se aprendio el Pseudocodigo con Python\"\ncontraseña = input(\"Introduzca la contraseña: \")\nif contraseña == Pass1 :\n    print(\"Correcto!!\")\nelif contraseña == Pass2 :",
+        "detail": "scr.UTprog1.Ejercicio 2.1.2",
+        "documentation": {}
+    },
+    {
+        "label": "Pass2",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.2",
+        "description": "scr.UTprog1.Ejercicio 2.1.2",
+        "peekOfCode": "Pass2 = \"4358\"\nPass3 = \"Password\"\nPass4 = \"Prog_DAM\"\nPass5 = \"GITHUB\"\nPass6 = \"Porfin emma se aprendio el Pseudocodigo con Python\"\ncontraseña = input(\"Introduzca la contraseña: \")\nif contraseña == Pass1 :\n    print(\"Correcto!!\")\nelif contraseña == Pass2 :\n    print(\"Correcto Papu\")",
+        "detail": "scr.UTprog1.Ejercicio 2.1.2",
+        "documentation": {}
+    },
+    {
+        "label": "Pass3",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.2",
+        "description": "scr.UTprog1.Ejercicio 2.1.2",
+        "peekOfCode": "Pass3 = \"Password\"\nPass4 = \"Prog_DAM\"\nPass5 = \"GITHUB\"\nPass6 = \"Porfin emma se aprendio el Pseudocodigo con Python\"\ncontraseña = input(\"Introduzca la contraseña: \")\nif contraseña == Pass1 :\n    print(\"Correcto!!\")\nelif contraseña == Pass2 :\n    print(\"Correcto Papu\")\nelif contraseña == Pass3 :",
+        "detail": "scr.UTprog1.Ejercicio 2.1.2",
+        "documentation": {}
+    },
+    {
+        "label": "Pass4",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.2",
+        "description": "scr.UTprog1.Ejercicio 2.1.2",
+        "peekOfCode": "Pass4 = \"Prog_DAM\"\nPass5 = \"GITHUB\"\nPass6 = \"Porfin emma se aprendio el Pseudocodigo con Python\"\ncontraseña = input(\"Introduzca la contraseña: \")\nif contraseña == Pass1 :\n    print(\"Correcto!!\")\nelif contraseña == Pass2 :\n    print(\"Correcto Papu\")\nelif contraseña == Pass3 :\n    print(\"Correct yoo got an ice cream\")",
+        "detail": "scr.UTprog1.Ejercicio 2.1.2",
+        "documentation": {}
+    },
+    {
+        "label": "Pass5",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.2",
+        "description": "scr.UTprog1.Ejercicio 2.1.2",
+        "peekOfCode": "Pass5 = \"GITHUB\"\nPass6 = \"Porfin emma se aprendio el Pseudocodigo con Python\"\ncontraseña = input(\"Introduzca la contraseña: \")\nif contraseña == Pass1 :\n    print(\"Correcto!!\")\nelif contraseña == Pass2 :\n    print(\"Correcto Papu\")\nelif contraseña == Pass3 :\n    print(\"Correct yoo got an ice cream\")\nelif contraseña == Pass4 :",
+        "detail": "scr.UTprog1.Ejercicio 2.1.2",
+        "documentation": {}
+    },
+    {
+        "label": "Pass6",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.2",
+        "description": "scr.UTprog1.Ejercicio 2.1.2",
+        "peekOfCode": "Pass6 = \"Porfin emma se aprendio el Pseudocodigo con Python\"\ncontraseña = input(\"Introduzca la contraseña: \")\nif contraseña == Pass1 :\n    print(\"Correcto!!\")\nelif contraseña == Pass2 :\n    print(\"Correcto Papu\")\nelif contraseña == Pass3 :\n    print(\"Correct yoo got an ice cream\")\nelif contraseña == Pass4 :\n    print(\"Incorret- naaaa mentiras, Es CORRECTO\")",
+        "detail": "scr.UTprog1.Ejercicio 2.1.2",
+        "documentation": {}
+    },
+    {
+        "label": "contraseña",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.2",
+        "description": "scr.UTprog1.Ejercicio 2.1.2",
+        "peekOfCode": "contraseña = input(\"Introduzca la contraseña: \")\nif contraseña == Pass1 :\n    print(\"Correcto!!\")\nelif contraseña == Pass2 :\n    print(\"Correcto Papu\")\nelif contraseña == Pass3 :\n    print(\"Correct yoo got an ice cream\")\nelif contraseña == Pass4 :\n    print(\"Incorret- naaaa mentiras, Es CORRECTO\")\nelif contraseña == Pass5 :",
+        "detail": "scr.UTprog1.Ejercicio 2.1.2",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.3",
+        "description": "scr.UTprog1.Ejercicio 2.1.3",
+        "peekOfCode": "num1 = int(input(\"Ingrese el numero a dividir: \"))\nnum2 = int(input(\"Ingrese el segundo numero divisor: \"))\ntry:\n    if num1 / num2:\n        div = num1 / num2\n        print(\"El resultado es\", div)\n#Tuve que personalizar el mensaje predeterminado cuando divides entre cero:\nexcept ZeroDivisionError:\n    print(\"Error: No puedes dividir entre cero\")   \n\"\"\"",
+        "detail": "scr.UTprog1.Ejercicio 2.1.3",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.3",
+        "description": "scr.UTprog1.Ejercicio 2.1.3",
+        "peekOfCode": "num2 = int(input(\"Ingrese el segundo numero divisor: \"))\ntry:\n    if num1 / num2:\n        div = num1 / num2\n        print(\"El resultado es\", div)\n#Tuve que personalizar el mensaje predeterminado cuando divides entre cero:\nexcept ZeroDivisionError:\n    print(\"Error: No puedes dividir entre cero\")   \n\"\"\"\nnum1 = int(input(\"Ingrese el numero a dividir: \"))",
+        "detail": "scr.UTprog1.Ejercicio 2.1.3",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.3",
+        "description": "scr.UTprog1.Ejercicio 2.1.3",
+        "peekOfCode": "num1 = int(input(\"Ingrese el numero a dividir: \"))\nnum2 = int(input(\"Ingrese el segundo numero divisor: \"))\nif num2 == 0: \n    print(\"Error: No puedes dividir entre cero\")\nelse:\n    div = num1 / num2\n    print(\"El resultado es\", div)",
+        "detail": "scr.UTprog1.Ejercicio 2.1.3",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.3",
+        "description": "scr.UTprog1.Ejercicio 2.1.3",
+        "peekOfCode": "num2 = int(input(\"Ingrese el segundo numero divisor: \"))\nif num2 == 0: \n    print(\"Error: No puedes dividir entre cero\")\nelse:\n    div = num1 / num2\n    print(\"El resultado es\", div)",
+        "detail": "scr.UTprog1.Ejercicio 2.1.3",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.4",
+        "description": "scr.UTprog1.Ejercicio 2.1.4",
+        "peekOfCode": "num = int(input(\"Ingrese el numero: \"))\nif num % 2 == 0: \n    print(\"Es par\")\nelse:\n    print(\"Es Inpar\")",
+        "detail": "scr.UTprog1.Ejercicio 2.1.4",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.5",
+        "description": "scr.UTprog1.Ejercicio 2.1.5",
+        "peekOfCode": "edad = int(input(\"Introduzca su edad: \"))\ningresos =int(input(\"Coloque sus ingresos mensuales:\"))\nif ingresos < 1000:\n    print(\"No debes tributar.\")\nelif edad < 16:\n    print(\"No debes tributar.\")\nelse:\n    print(\"Debes tributar.\")\n\"\"\"\nedad = int(input(\"Introduzca su edad: \"))",
+        "detail": "scr.UTprog1.Ejercicio 2.1.5",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "scr.UTprog1.Ejercicio 2.1.5",
+        "description": "scr.UTprog1.Ejercicio 2.1.5",
+        "peekOfCode": "edad = int(input(\"Introduzca su edad: \"))\ningresos =int(input(\"Coloque sus ingresos mensuales:\"))\nif ingresos >= 1000 and edad == 16:\n    print(\"Debes tribular\")\nelse:\n    print(\"No debes\")",
+        "detail": "scr.UTprog1.Ejercicio 2.1.5",
+        "documentation": {}
+    }
+]
