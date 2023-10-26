@@ -823,7 +823,7 @@
         "kind": 5,
         "importPath": "scr.ej32",
         "description": "scr.ej32",
-        "peekOfCode": "num1 = int(input(\"Introduce un número: \"))\nnum2 = int(input(\"Introduce otro número: \"))\nif (num1 >= num2):\n    numIni = num1\n    numFin = num2\nelse:\n    numIni = num2\n    numFin = num1\nwhile (numIni <= numFin):\n    print(numIni, end=\"\")",
+        "peekOfCode": "num1 = int(input(\"Introduce un número: \"))\nnum2 = int(input(\"Introduce otro número: \"))\nif (num1 >= num2):\n    numIni = num1\n    numFin = num2\nelse:\n    numIni = num2\n    numFin = num1\nserie = \"\"\nwhile numIni <= numFin:",
         "detail": "scr.ej32",
         "documentation": {}
     },
@@ -832,16 +832,16 @@
         "kind": 5,
         "importPath": "scr.ej32",
         "description": "scr.ej32",
-        "peekOfCode": "num2 = int(input(\"Introduce otro número: \"))\nif (num1 >= num2):\n    numIni = num1\n    numFin = num2\nelse:\n    numIni = num2\n    numFin = num1\nwhile (numIni <= numFin):\n    print(numIni, end=\"\")\n    if (numIni != numFin):",
+        "peekOfCode": "num2 = int(input(\"Introduce otro número: \"))\nif (num1 >= num2):\n    numIni = num1\n    numFin = num2\nelse:\n    numIni = num2\n    numFin = num1\nserie = \"\"\nwhile numIni <= numFin:\n    serie = serie + numIni",
         "detail": "scr.ej32",
         "documentation": {}
     },
     {
-        "label": "numIni",
+        "label": "serie",
         "kind": 5,
         "importPath": "scr.ej32",
         "description": "scr.ej32",
-        "peekOfCode": "numIni = numIni + 1",
+        "peekOfCode": "serie = \"\"\nwhile numIni <= numFin:\n    serie = serie + numIni\n    if numIni != numFin:\n        serie = serie + \"-\"\n    numIni = numIni + 1\nprint(serie)",
         "detail": "scr.ej32",
         "documentation": {}
     }
