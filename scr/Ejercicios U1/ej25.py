@@ -1,5 +1,0 @@
-fecha_nacimiento = input("Ingrese su fecha de nacimiento en formato dd/mm/aaaa: ")
-dia, mes, año = fecha_nacimiento.split('/')
-print("Día: ", dia)
-print("Mes: ", mes)
-print("Año: ", año)
