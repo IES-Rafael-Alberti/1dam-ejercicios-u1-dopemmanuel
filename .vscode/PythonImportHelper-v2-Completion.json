@@ -808,5 +808,41 @@
         "peekOfCode": "total = int(input(\"Introduce el total de la serie: \"))\nif increment <= 0 or total <= 0:\n    print(\"El incremento y el total deben ser mayores que cero.\")\nelse:\n    serie = str(start)\n    for i in range(1, total):\n        start += increment\n        serie += str(-start)\n    print(\"SERIE =>\", serie,)",
         "detail": "scr.ej30",
         "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "scr.ej31",
+        "description": "scr.ej31",
+        "peekOfCode": "num = int(input(\"Introduce un numero:\"))\nif  num < 1 or num > 10:\n    print(\"Try Again broo\")\nelse:\n    print(\"Corrrect broo\")",
+        "detail": "scr.ej31",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "scr.ej32",
+        "description": "scr.ej32",
+        "peekOfCode": "num1 = int(input(\"Introduce un número: \"))\nnum2 = int(input(\"Introduce otro número: \"))\nif (num1 >= num2):\n    numIni = num1\n    numFin = num2\nelse:\n    numIni = num2\n    numFin = num1\nwhile (numIni <= numFin):\n    print(numIni, end=\"\")",
+        "detail": "scr.ej32",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "scr.ej32",
+        "description": "scr.ej32",
+        "peekOfCode": "num2 = int(input(\"Introduce otro número: \"))\nif (num1 >= num2):\n    numIni = num1\n    numFin = num2\nelse:\n    numIni = num2\n    numFin = num1\nwhile (numIni <= numFin):\n    print(numIni, end=\"\")\n    if (numIni != numFin):",
+        "detail": "scr.ej32",
+        "documentation": {}
+    },
+    {
+        "label": "numIni",
+        "kind": 5,
+        "importPath": "scr.ej32",
+        "description": "scr.ej32",
+        "peekOfCode": "numIni = numIni + 1",
+        "detail": "scr.ej32",
+        "documentation": {}
     }
 ]
